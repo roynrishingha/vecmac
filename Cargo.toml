@@ -1,0 +1,17 @@
+[package]
+name = "vecmac"
+version = "0.1.0"
+authors = ["Nrishinghananda Roy <royrustdev@gmail.com>"]
+edition = "2021"
+publish = false
+readme = "README.md"
+description = "Vector macro created for learning purposes"
+license = "MIT OR Apache-2.0"
+keywords = ["macro", "vector"]
+repository = "https://github.com/royrustdev/vecmac.git"
+
+[badges]
+maintenance = { status = "experimental" }
+
+[lib]
+path = "src/lib.rs"
